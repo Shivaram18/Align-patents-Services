@@ -13,7 +13,12 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
+#cid_7{
+  display: none;
+}
+.form-input-wide{
+  display: none !important;
+}
 a {
   color: #3fbbc0;
   text-decoration: none;
@@ -586,6 +591,10 @@ h6 {
   #hero .carousel-control-prev,
   #hero .carousel-control-next {
     width: 5%;
+  }
+  .contact-form-height-toHide-ads{
+    height: 500px;
+    overflow-y: hidden;
   }
 }
 
